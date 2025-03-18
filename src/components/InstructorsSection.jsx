@@ -9,7 +9,9 @@ import arrow from "/src/assets/backgroundImages/arrow2.png";
 function InstructorsSection() {
   let instructorCards = [
     {
-      instructorImgae: <img src={instructor1} className="rounded-xl" />,
+      instructorImgae: (
+        <img src={instructor1} className="rounded-xl w-full object-cover" />
+      ),
       name: "Matthew E. McNatt",
       designation: "Professor",
       college: "George Brown College",
@@ -18,7 +20,9 @@ function InstructorsSection() {
       course: "Engineering physics",
     },
     {
-      instructorImgae: <img src={instructor2} className="rounded-xl" />,
+      instructorImgae: (
+        <img src={instructor2} className="rounded-xl w-full object-cover" />
+      ),
       name: "Tracy D. Wright",
       designation: "Professor",
       college: "George Brown College",
@@ -27,7 +31,9 @@ function InstructorsSection() {
       course: "Engineering physics",
     },
     {
-      instructorImgae: <img src={instructor3} className="rounded-xl" />,
+      instructorImgae: (
+        <img src={instructor3} className="rounded-xl w-full object-cover" />
+      ),
       name: "Cynthia A. Nelson",
       designation: "Professor",
       college: "George Brown College",
@@ -52,9 +58,9 @@ function InstructorsSection() {
           Lorem Ipsum is simply dummy text of the printing.
         </span>
       </div>
-      <div className="flex flex-col sm:flex-row gap-4 px-10 sm:px-24 py-10">
+      <div className="flex flex-col md:flex-row gap-4 px-10 sm:px-24 py-10">
         {instructorCards.map((card, index) => (
-          <div key={index} className="shadow-xl rounded-xl p-3 py-4">
+          <div key={index} className="shadow-xl rounded-xl p-3 py-4 ">
             <div>{card.instructorImgae}</div>
             <h1 className="font-bold ">{card.name}</h1>
             <span className="text-sm text-slate-600">

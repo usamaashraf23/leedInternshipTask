@@ -3,7 +3,7 @@ import logoImg from "/src/assets/logoImg.png";
 function Footer() {
   return (
     <footer className="bg-[#fcf8f3] text-gray-800 py-10 px-10">
-      <div className="max-w-7xl mb-8 mx-auto grid grid-cols-1 md:grid-cols-6 gap-2">
+      <div className="max-w-7xl mb-8 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-2">
         {/* Logo & Description */}
         <div className="md:col-span-2">
           <div className="flex items-center space-x-2">
