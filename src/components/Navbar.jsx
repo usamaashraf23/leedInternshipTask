@@ -61,7 +61,7 @@ function Navbar() {
   }
   return (
     <BrowserRouter>
-      <nav className="bg-[#FDF8EE] hidden sm:flex items-center justify-between px-8 py-4 sticky top-0 z-50 ">
+      <nav className="bg-[#FDF8EE] hidden md:flex  items-center justify-between px-8 py-4 sticky top-0 z-50 ">
         <div className="flex items-center">
           <img src={logoImg} alt="Book Store Logo" className="h-12 w-32 mr-2" />
         </div>
@@ -88,7 +88,7 @@ function Navbar() {
           Sign in
         </button>
       </nav>
-      <div className="py-4  bg-[#FDF8EE]  justify-between px-4 shadow-2xl shadow-gray-500/40 sm:hidden flex">
+      <div className="py-4  bg-[#FDF8EE]  justify-between px-4 shadow-2xl shadow-gray-500/40 md:hidden flex">
         <div className="flex items-center gap-1 ">
           <img className="h-12 w-40" src={logoImg} />
         </div>

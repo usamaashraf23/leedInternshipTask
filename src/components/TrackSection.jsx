@@ -76,9 +76,12 @@ function TrackSection() {
           Lorem Ipsum is simply dummy text of the printing.
         </span>
       </div>
-      <div className="flex flex-col sm:flex-row gap-4 px-10 sm:px-24 py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-10 sm:px-24 py-10">
         {trackCards.map((card, index) => (
-          <div key={index} className="shadow-xl rounded-xl p-3 py-4">
+          <div
+            key={index}
+            className="shadow-xl rounded-xl p-3 py-4 h-full flex flex-col"
+          >
             <div>{card.trackImgae}</div>
             <div className="flex justify-between items-center py-2">
               <span className="text-sm text-gray-500">{card.type}</span>

@@ -41,7 +41,7 @@ function ReviewsSection() {
           Lorem Ipsum is simply dummy text of the printing.
         </span>
       </div>
-      <div className="flex flex-col md:flex-row gap-10 px-10 sm:px-32 py-10 justify-center  items-stretch ">
+      <div className="flex flex-col lg:flex-row gap-10 px-10 sm:px-32 py-10 justify-center  items-stretch ">
         {reviewCard.map((review, index) => (
           <div className="shadow-2xl px-10 py-4" key={index}>
             <p>''{review.review}''</p>

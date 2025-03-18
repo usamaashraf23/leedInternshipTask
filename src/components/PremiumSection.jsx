@@ -57,7 +57,7 @@ function PremiumSection() {
         <div className="mt-6 space-y-6">
           <div className="flex items-start space-x-4  ">
             <div className="bg-[#4D2C5E] px-3 py-3 rounded-xl">
-              <img src={hearts} alt="Icon 1" className="h-10" />
+              <img src={hearts} alt="Icon 1" className="sm:h-10" />
             </div>
 
             <div>
@@ -70,7 +70,7 @@ function PremiumSection() {
 
           <div className="flex items-start space-x-4">
             <div className="bg-[#4D2C5E] px-3 py-3 rounded-xl">
-              <img src={jigsaw} alt="Icon 1" className="h-10" />
+              <img src={jigsaw} alt="Icon 1" className="sm:h-10" />
             </div>
             <div>
               <h3 className="text-lg font-semibold">Fun Learning Experience</h3>
